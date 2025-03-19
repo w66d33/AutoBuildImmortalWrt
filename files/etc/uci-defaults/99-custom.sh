@@ -92,6 +92,11 @@ elif [ "$count" -gt 1 ]; then
 fi
 
 
+# 设置静态地址和密码
+root_password="0000333"
+lan_ip_address="192.168.50.101”
+
+
 # 设置所有网口可访问网页终端
 uci delete ttyd.@ttyd[0].interface
 
