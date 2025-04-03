@@ -104,6 +104,14 @@ uci delete ttyd.@ttyd[0].interface
 uci set dropbear.@dropbear[0].Interface=''
 uci commit
 
+# 自定义射这
+wlan_name="ImmortalWrt"
+wlan_password="0000333"
+#
+root_password="0000333"
+lan_ip_address="192.168.50.101"
+
+
 # 设置编译作者信息
 FILE_PATH="/etc/openwrt_release"
 NEW_DESCRIPTION="Compiled by Wult"
